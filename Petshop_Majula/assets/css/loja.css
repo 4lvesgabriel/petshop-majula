@@ -1,0 +1,17 @@
+.cardimg{
+    width: 85%;
+    height: 50%;
+}
+
+.cbody{
+    width: 85%;
+    height: 50%;
+}
+
+.customc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    background: #F2D5BB;
+}

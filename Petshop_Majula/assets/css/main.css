@@ -1,0 +1,168 @@
+body,html{
+    font-family: 'Poppins', sans-serif;
+    height: max-content;
+    min-height: 100vh;
+    margin-top: 25px;
+    background: #F2D5BB;
+}
+
+/* Navbar */
+
+.navcustom{
+    box-shadow: 0px 3px 10px black;
+    background: #736355;
+}
+
+.bgcolor{
+    border-radius: 15%;
+}
+
+.bgcolor:hover{
+    background-color: #BF7C41;
+}
+
+.ih{
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.ih:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1); 
+}
+
+/* Carousel */
+
+#carouselone{
+    height: 70vh;
+    box-shadow: 0px 3px 10px black;
+}
+
+.ci1{
+    height: 70vh;
+    background-image: url(/assets/static/pitbull.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.ci2{
+    height: 70vh;
+    background-image: url(/assets/static/beagle.jpg);
+    background-position: center top 40%;
+    background-size: cover;
+}
+
+.ci3{
+    height: 70vh;
+    background-image: url(/assets/static/whitecat.jpg);
+    background-position: center top 20%;
+    background-size: cover;
+}
+
+/* carousel-loja */
+
+
+
+/* Time */
+
+.tcustom{
+    width: 90%;
+    background-color: #736355;
+}
+
+/* Botão Back to Top */
+
+#btn-back-to-top{
+    text-decoration: none;
+    padding:10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: #F2D5BB;
+    background: #736355;
+    box-shadow: 3px 3px 0px;
+}
+
+/* zoom */
+
+.zoom img{
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);  
+}
+
+/* Texto */
+
+.texto{
+    color: white;
+}
+
+/* Form */
+
+form{
+    max-width: 450px;
+}
+
+.fcustom {
+    width: 90%;
+    background-color: #736355;
+}
+
+.forma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer */
+
+.footer1{
+    display: flex;
+    flex: auto;
+    justify-content: left;
+    align-items: center;
+}
+
+.footer2{
+    display: flex;
+    flex:auto;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+}
+
+/* fotos adoção */
+
+.adc{
+    object-fit: cover;
+    height: 295px;
+    width: 95%;
+}
+
+.ula{
+    list-style: circle;
+}
+
+/* card adoção */
+.customca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    background: #F2D5BB;
+}
+
+.cbody{
+   width: 85%;
+   height: 50%;
+}
